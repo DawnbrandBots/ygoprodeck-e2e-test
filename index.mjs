@@ -18,13 +18,13 @@ import { PlaywrightBlocker } from "@cliqz/adblocker-playwright";
         // omitBackground not supported in Firefox
         await page.locator("#piechart-container").screenshot({ path, omitBackground: true });
     }
-    await screenshot("top-chart-tcg.png");
+    await screenshot("_site/top-chart-tcg.png");
     await page.getByLabel("Format Menu").click();
     await page.getByLabel("Format Menu").selectOption("OCG");
-    await screenshot("top-chart-ocg.png");
+    await screenshot("_site/top-chart-ocg.png");
     await page.getByLabel("Format Menu").click();
     await page.getByLabel("Format Menu").selectOption("OCG-AE");
-    await screenshot("top-chart-ocg-ae.png");
+    await screenshot("_site/top-chart-ocg-ae.png");
     await context.close();
     await browser.close();
 })();
