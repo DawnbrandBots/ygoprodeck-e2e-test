@@ -1,0 +1,36 @@
+# SPDX-FileCopyrightText: © 2024 Kevin Lu
+# SPDX-Licence-Identifier: AGPL-3.0-or-later
+name: End-to-end tests
+on:
+  workflow_dispatch:
+  schedule:
+    # Daily after 12:00 UTC, depending on Actions availability
+    - cron: "0 12 * * *"
+concurrency:
+  group: ${{ github.workflow }}
+  cancel-in-progress: true
+jobs:
+  e2e-test:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 20
+      - run: yarn
+      - run: yarn playwright install --with-deps
+      - run: node .
+      - uses: actions/configure-pages@v5
+      - uses: actions/upload-pages-artifact@v3
+  publish:
+    needs: e2e-test
+    runs-on: ubuntu-latest
+    permissions:
+      pages: write
+      id-token: write
+    environment:
+      name: github-pages
+      url: ${{ steps.deploy.outputs.page_url }}
+    steps:
+      - id: deploy
+        uses: actions/deploy-pages@v4

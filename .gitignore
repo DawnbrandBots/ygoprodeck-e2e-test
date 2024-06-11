@@ -1,0 +1,12 @@
+node_modules/
+
+# VSCode editor settings
+.vscode/settings.json
+
+# macOS
+.DS_Store
+
+# Windows
+Thumbs.db
+
+*.png

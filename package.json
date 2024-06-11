@@ -1,0 +1,17 @@
+{
+  "name": "ygoprodeck-e2e-test",
+  "version": "0.0.1",
+  "repository": "https://github.com/DawnbrandBots/ygoprodeck-e2e-test.git",
+  "main": "index.mjs",
+  "author": "Kevin Lu",
+  "license": "AGPL-3.0-or-later",
+  "private": true,
+  "engines": {
+    "node": ">=20",
+    "yarn": "1.22.x"
+  },
+  "dependencies": {
+    "@cliqz/adblocker-playwright": "^1.27.11",
+    "playwright": "^1.44.1"
+  }
+}
