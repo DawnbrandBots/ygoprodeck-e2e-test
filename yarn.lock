@@ -2,45 +2,45 @@
 # yarn lockfile v1
 
 
-"@cliqz/adblocker-content@^1.27.11":
-  version "1.27.11"
-  resolved "https://registry.yarnpkg.com/@cliqz/adblocker-content/-/adblocker-content-1.27.11.tgz#2ada7a475bd1990e0f7d3b645c3378ede95247bb"
-  integrity sha512-tvTYUkQsTzI4O7gCG4/eIiyXpyFxUr355vwEmtc1HAE02x69fIR2o5GjlBs0V03LO+p+3oAQGaiZB8y76sq7Cw==
+"@cliqz/adblocker-content@^1.30.0":
+  version "1.30.0"
+  resolved "https://registry.yarnpkg.com/@cliqz/adblocker-content/-/adblocker-content-1.30.0.tgz#d41f5916da5c540551a43a292a274fbc80733210"
+  integrity sha512-Efk/eltbbltbHkEGCauXZhhNUyOUxkyXEWfapCk0TRpF0uVCSRQ7Wts7yJUC7CaxUXVhu9c+6S4kYzKtPaXN3w==
   dependencies:
-    "@cliqz/adblocker-extended-selectors" "^1.27.11"
+    "@cliqz/adblocker-extended-selectors" "^1.30.0"
 
-"@cliqz/adblocker-extended-selectors@^1.27.11":
-  version "1.27.11"
-  resolved "https://registry.yarnpkg.com/@cliqz/adblocker-extended-selectors/-/adblocker-extended-selectors-1.27.11.tgz#d7f658541536fdc20c5014ecdd3414c7ac7571ae"
-  integrity sha512-pS/obN/w7lEGtDTDiA/w/bosTQ01q9Nnnm4kuIjEBf/b2RgVP6nmT79ZTv8WUj8v9/eGkyvnY/7rqnpjK33nBQ==
+"@cliqz/adblocker-extended-selectors@^1.30.0":
+  version "1.30.0"
+  resolved "https://registry.yarnpkg.com/@cliqz/adblocker-extended-selectors/-/adblocker-extended-selectors-1.30.0.tgz#47f60dbec18a2f03458064a8f60c0a713001bbf9"
+  integrity sha512-zFr7U/7KWii/S1eep46Oivw9Angw+1cwvz3YIyer/M+c6+PnrembzRC6jkjCGzO6nEihmHKLyW9Ka/51Vnwo2Q==
 
-"@cliqz/adblocker-playwright@^1.27.11":
-  version "1.27.11"
-  resolved "https://registry.yarnpkg.com/@cliqz/adblocker-playwright/-/adblocker-playwright-1.27.11.tgz#1d2d5d0b0b9f3dbd473d88f693b8fd427aa3fd7e"
-  integrity sha512-WESq3FY0NE50u6LGgLlOCY5/YwAkLYWE1iN0JBVvt+zXbDeOM06sVaWvcDO68GuJO9VpdQ1dyXzx7nuqtdVNzg==
+"@cliqz/adblocker-playwright@^1.30.0":
+  version "1.30.0"
+  resolved "https://registry.yarnpkg.com/@cliqz/adblocker-playwright/-/adblocker-playwright-1.30.0.tgz#d6f1cbc2697cd77e4d81ba14d410a57cc0ece65e"
+  integrity sha512-CYluYuoIcw1SyNtrhv0487dOixi+lYNdLF+jnAOHcEZVRdJDQzdIbk7fj/g5GpBDng5H5AKp55Mspamv2T6EIg==
   dependencies:
-    "@cliqz/adblocker" "^1.27.11"
-    "@cliqz/adblocker-content" "^1.27.11"
+    "@cliqz/adblocker" "^1.30.0"
+    "@cliqz/adblocker-content" "^1.30.0"
     tldts-experimental "^6.0.14"
 
-"@cliqz/adblocker@^1.27.11":
-  version "1.27.11"
-  resolved "https://registry.yarnpkg.com/@cliqz/adblocker/-/adblocker-1.27.11.tgz#f6c4e9d2072be50d67e3a7e003b99fe0539b95c1"
-  integrity sha512-nNhXLCzYwwFsDNZiAr7p5O/J/X7CKq247znQlIZJDYi3LwncK/2nJxKpmOuGxIoj8QRhm2AMwebSJTGTm47RBQ==
+"@cliqz/adblocker@^1.30.0":
+  version "1.30.0"
+  resolved "https://registry.yarnpkg.com/@cliqz/adblocker/-/adblocker-1.30.0.tgz#7437a7ff2a783db6226e6005117e16cb426142c2"
+  integrity sha512-x/FxQBUVOpc3X2T10X+9/Ef8d9NQOb+/JIcY83BTZpFoTVoTOvELQoj3B2UfHH/p7hsq1byD8y/0SrJq1E6Zfw==
   dependencies:
-    "@cliqz/adblocker-content" "^1.27.11"
-    "@cliqz/adblocker-extended-selectors" "^1.27.11"
-    "@remusao/guess-url-type" "^1.2.1"
+    "@cliqz/adblocker-content" "^1.30.0"
+    "@cliqz/adblocker-extended-selectors" "^1.30.0"
+    "@remusao/guess-url-type" "^1.3.0"
     "@remusao/small" "^1.2.1"
     "@remusao/smaz" "^1.9.1"
     "@types/chrome" "^0.0.268"
     "@types/firefox-webext-browser" "^120.0.0"
     tldts-experimental "^6.0.14"
 
-"@remusao/guess-url-type@^1.2.1":
-  version "1.2.1"
-  resolved "https://registry.yarnpkg.com/@remusao/guess-url-type/-/guess-url-type-1.2.1.tgz#b3e7c32abdf98d0fb4f93cc67cad580b5fe4ba57"
-  integrity sha512-rbOqre2jW8STjheOsOaQHLgYBaBZ9Owbdt8NO7WvNZftJlaG3y/K9oOkl8ZUpuFBisIhmBuMEW6c+YrQl5inRA==
+"@remusao/guess-url-type@^1.3.0":
+  version "1.3.0"
+  resolved "https://registry.yarnpkg.com/@remusao/guess-url-type/-/guess-url-type-1.3.0.tgz#4d1b73f13d91f5e7775c461be782059ab5da83ad"
+  integrity sha512-SNSJGxH5ckvxb3EUHj4DqlAm/bxNxNv2kx/AESZva/9VfcBokwKNS+C4D1lQdWIDM1R3d3UG+xmVzlkNG8CPTQ==
 
 "@remusao/small@^1.2.1":
   version "1.2.1"
