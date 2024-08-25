@@ -122,9 +122,9 @@ playwright@^1.46.1:
     fsevents "2.3.2"
 
 tldts-core@^6.1.39:
-  version "6.1.39"
-  resolved "https://registry.yarnpkg.com/tldts-core/-/tldts-core-6.1.39.tgz#43f0912f9cbbf2511c7146d411417c126c245200"
-  integrity sha512-+Qib8VaRq6F56UjP4CJXd30PI4s3hFumDywUlsbiEWoA8+lfAaWNTLr3e6/zZOgHzVyon4snHaybeFHd8C0j/A==
+  version "6.1.41"
+  resolved "https://registry.yarnpkg.com/tldts-core/-/tldts-core-6.1.41.tgz#896be7d7ce6e32b12f86ffa13862215a0dd8fb00"
+  integrity sha512-SkwZgo1ZzMp2ziMBwci5VBnLR9VywCi02jSgMX5TO5kf9fdaBsxZkblLff3NlJNTcH0vfvEsgw2B7jVR556Vgw==
 
 tldts-experimental@^6.0.14:
   version "6.1.39"
