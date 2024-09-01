@@ -10,9 +10,9 @@
     "@cliqz/adblocker-extended-selectors" "^1.31.3"
 
 "@cliqz/adblocker-extended-selectors@^1.31.3":
-  version "1.31.3"
-  resolved "https://registry.yarnpkg.com/@cliqz/adblocker-extended-selectors/-/adblocker-extended-selectors-1.31.3.tgz#478d8710aafbbf2a66a8946d4101daa07854711d"
-  integrity sha512-q9e/Rk+Bvn99qH4EDC6WVuS/dds9u/wE6MsqfCQgvQvd6CPPTXKo1ZPLTGj1OWl0+OY7CqROwNH0uAQcPgPHkA==
+  version "1.33.1"
+  resolved "https://registry.yarnpkg.com/@cliqz/adblocker-extended-selectors/-/adblocker-extended-selectors-1.33.1.tgz#c321b08fec54732b40b99eae4d886d24ae6910f5"
+  integrity sha512-QXdMuSDbl+S0RgBReObKvsUivWfv3BBVuxQIIvKvbm/3o3dbSoZ2sQBVKW9f9Su9guEAU5Qx3FvVNeI3a4iECQ==
 
 "@cliqz/adblocker-playwright@^1.31.3":
   version "1.31.3"
