@@ -2,34 +2,34 @@
 # yarn lockfile v1
 
 
-"@cliqz/adblocker-content@^1.33.1":
-  version "1.33.1"
-  resolved "https://registry.yarnpkg.com/@cliqz/adblocker-content/-/adblocker-content-1.33.1.tgz#3e8a5aef1393bad88a317cab37ad3d0383fdd832"
-  integrity sha512-UCA8kNVsn6o+scWJRKLWV8iJ+lpuiD9KGU9nkuZuE7q2uJSGkW1HSSmrOHLWcHcnnU+mkPWY8uMoychwcJMHDQ==
+"@cliqz/adblocker-content@^1.33.2":
+  version "1.33.2"
+  resolved "https://registry.yarnpkg.com/@cliqz/adblocker-content/-/adblocker-content-1.33.2.tgz#305adcfed4be882dcdf7f0d607a1f60adf0bc056"
+  integrity sha512-OlLfenwU6sxo3/y6IPfnl9ou32IFwRzQXgHrLWZ0IjzcY8ZxpGlh97QcW1D9QyTPj3Ndub6vNJxsnMjNOWDd7g==
   dependencies:
-    "@cliqz/adblocker-extended-selectors" "^1.33.1"
+    "@cliqz/adblocker-extended-selectors" "^1.33.2"
 
-"@cliqz/adblocker-extended-selectors@^1.33.1":
-  version "1.33.1"
-  resolved "https://registry.yarnpkg.com/@cliqz/adblocker-extended-selectors/-/adblocker-extended-selectors-1.33.1.tgz#c321b08fec54732b40b99eae4d886d24ae6910f5"
-  integrity sha512-QXdMuSDbl+S0RgBReObKvsUivWfv3BBVuxQIIvKvbm/3o3dbSoZ2sQBVKW9f9Su9guEAU5Qx3FvVNeI3a4iECQ==
+"@cliqz/adblocker-extended-selectors@^1.33.2":
+  version "1.33.2"
+  resolved "https://registry.yarnpkg.com/@cliqz/adblocker-extended-selectors/-/adblocker-extended-selectors-1.33.2.tgz#f41cf3083df668c0ed9c426fa5bd7a9fdd64925e"
+  integrity sha512-SPL8vZyniuQ1kBmwM0KZyNNHnS8Nd6N0eoGDzkPJqkAW+ntT/v7MBXmlhKmpYhsh773uLZUjF5bSlTQprXtcdw==
 
-"@cliqz/adblocker-playwright@^1.33.1":
-  version "1.33.1"
-  resolved "https://registry.yarnpkg.com/@cliqz/adblocker-playwright/-/adblocker-playwright-1.33.1.tgz#4f1b7e6c6b0437e3b10c66ad1751a455a9a64c2e"
-  integrity sha512-H/Ed9P4I/UORRrGWEU2J8kPgG61VTlhr9voLfIfMhkHJ7bP1eBaPHlz4USAU8D2b0RWp3yJUY7ZmwJS0cBdZvw==
+"@cliqz/adblocker-playwright@^1.33.2":
+  version "1.33.2"
+  resolved "https://registry.yarnpkg.com/@cliqz/adblocker-playwright/-/adblocker-playwright-1.33.2.tgz#0e0d8e58a394fdd3cbf9cc01243f3640cac82990"
+  integrity sha512-VtLbFxINOASJNQ9bpl32vULgwQQ/EOmCdWHHM0LLmUDA5pCtj0T0gkXYIHyK/MFV4q5RAQPnv2PYCvmHXyLJlQ==
   dependencies:
-    "@cliqz/adblocker" "^1.33.1"
-    "@cliqz/adblocker-content" "^1.33.1"
+    "@cliqz/adblocker" "^1.33.2"
+    "@cliqz/adblocker-content" "^1.33.2"
     tldts-experimental "^6.0.14"
 
-"@cliqz/adblocker@^1.33.1":
-  version "1.33.1"
-  resolved "https://registry.yarnpkg.com/@cliqz/adblocker/-/adblocker-1.33.1.tgz#2c4eedecd4b013e4b008838e2affd326ed1c708d"
-  integrity sha512-/SsLJxJNtvkuGeyW8WFxONUrNutm13YtqVb/VoK+VTK/I/YgpWiMdnYbF60jbCm7U3WFIl1XCyn7/Ep7uGu09A==
+"@cliqz/adblocker@^1.33.2":
+  version "1.33.2"
+  resolved "https://registry.yarnpkg.com/@cliqz/adblocker/-/adblocker-1.33.2.tgz#e0ac543e911d8eb74c9e2d6718e99995a5a6c892"
+  integrity sha512-S6XHtSsn2+vvCgkqgmMuyZwGjXNfwQtPdzitrELzzNP881gbt7DDdbTBPAF50DOI2ZPDvkXfyoinbY5wEJPD+g==
   dependencies:
-    "@cliqz/adblocker-content" "^1.33.1"
-    "@cliqz/adblocker-extended-selectors" "^1.33.1"
+    "@cliqz/adblocker-content" "^1.33.2"
+    "@cliqz/adblocker-extended-selectors" "^1.33.2"
     "@remusao/guess-url-type" "^1.3.0"
     "@remusao/small" "^1.2.1"
     "@remusao/smaz" "^1.9.1"
@@ -107,28 +107,28 @@ fsevents@2.3.2:
   resolved "https://registry.yarnpkg.com/fsevents/-/fsevents-2.3.2.tgz#8a526f78b8fdf4623b709e0b975c52c24c02fd1a"
   integrity sha512-xiqMQR4xAeHTuB9uWm+fFRcIOgKBMiOBP+eXiyT7jsgVCq1bkVygt00oASowB7EdtpOHaaPgKt812P9ab+DDKA==
 
-playwright-core@1.46.1:
-  version "1.46.1"
-  resolved "https://registry.yarnpkg.com/playwright-core/-/playwright-core-1.46.1.tgz#28f3ab35312135dda75b0c92a3e5c0e7edb9cc8b"
-  integrity sha512-h9LqIQaAv+CYvWzsZ+h3RsrqCStkBHlgo6/TJlFst3cOTlLghBQlJwPOZKQJTKNaD3QIB7aAVQ+gfWbN3NXB7A==
+playwright-core@1.47.0:
+  version "1.47.0"
+  resolved "https://registry.yarnpkg.com/playwright-core/-/playwright-core-1.47.0.tgz#b54ec060fd83e5c2e46b63986b5ebb5e96ace427"
+  integrity sha512-1DyHT8OqkcfCkYUD9zzUTfg7EfTd+6a8MkD/NWOvjo0u/SCNd5YmY/lJwFvUZOxJbWNds+ei7ic2+R/cRz/PDg==
 
-playwright@^1.46.1:
-  version "1.46.1"
-  resolved "https://registry.yarnpkg.com/playwright/-/playwright-1.46.1.tgz#ea562bc48373648e10420a10c16842f0b227c218"
-  integrity sha512-oPcr1yqoXLCkgKtD5eNUPLiN40rYEM39odNpIb6VE6S7/15gJmA1NzVv6zJYusV0e7tzvkU/utBFNa/Kpxmwng==
+playwright@^1.47.0:
+  version "1.47.0"
+  resolved "https://registry.yarnpkg.com/playwright/-/playwright-1.47.0.tgz#fb9b028883fad11362f9ff63ce7ba44bda0bf626"
+  integrity sha512-jOWiRq2pdNAX/mwLiwFYnPHpEZ4rM+fRSQpRHwEwZlP2PUANvL3+aJOF/bvISMhFD30rqMxUB4RJx9aQbfh4Ww==
   dependencies:
-    playwright-core "1.46.1"
+    playwright-core "1.47.0"
   optionalDependencies:
     fsevents "2.3.2"
 
-tldts-core@^6.1.41:
-  version "6.1.41"
-  resolved "https://registry.yarnpkg.com/tldts-core/-/tldts-core-6.1.41.tgz#896be7d7ce6e32b12f86ffa13862215a0dd8fb00"
-  integrity sha512-SkwZgo1ZzMp2ziMBwci5VBnLR9VywCi02jSgMX5TO5kf9fdaBsxZkblLff3NlJNTcH0vfvEsgw2B7jVR556Vgw==
+tldts-core@^6.1.43:
+  version "6.1.43"
+  resolved "https://registry.yarnpkg.com/tldts-core/-/tldts-core-6.1.43.tgz#ed90a48d746a59280108df1e3b612ffc170b21f6"
+  integrity sha512-iO1G3F2NqtmJUYlTfcH2liSdaqDnjpYn6iGftbLRNx8DF6IRIjbknVt+q0ijwZ2KGZX3J8zeYGFoiI+ZtHT5MQ==
 
 tldts-experimental@^6.0.14:
-  version "6.1.41"
-  resolved "https://registry.yarnpkg.com/tldts-experimental/-/tldts-experimental-6.1.41.tgz#9149a2bf6c94eb28df1fbf289e4fe9b81caa903b"
-  integrity sha512-sHpzKl2XpmoByBEZvEyTcq/58YPSdA4LDXN2yFQDm7P+i8z8FTDH9IAGkz/GKdgHtP2Doc50BvoHrgm1y/hqmg==
+  version "6.1.43"
+  resolved "https://registry.yarnpkg.com/tldts-experimental/-/tldts-experimental-6.1.43.tgz#3098d004680e2cdca7a0ce518b1d9fe813de5d65"
+  integrity sha512-sziyPA9lOF4QQ1lB51HYVvPfoGmwWEuMrpJ9PleIRLWf1RU3O5JWqEDF07EiuuqilBOPfoeZvnJhOVYksTMtoA==
   dependencies:
-    tldts-core "^6.1.41"
+    tldts-core "^6.1.43"
