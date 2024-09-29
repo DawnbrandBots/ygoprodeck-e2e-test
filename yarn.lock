@@ -121,14 +121,14 @@ playwright@^1.47.2:
   optionalDependencies:
     fsevents "2.3.2"
 
-tldts-core@^6.1.47:
-  version "6.1.47"
-  resolved "https://registry.yarnpkg.com/tldts-core/-/tldts-core-6.1.47.tgz#bb6deb97abb6ef04243af60968d2d0055a65cbd7"
-  integrity sha512-6SWyFMnlst1fEt7GQVAAu16EGgFK0cLouH/2Mk6Ftlwhv3Ol40L0dlpGMcnnNiiOMyD2EV/aF3S+U2nKvvLvrA==
+tldts-core@^6.1.48:
+  version "6.1.48"
+  resolved "https://registry.yarnpkg.com/tldts-core/-/tldts-core-6.1.48.tgz#efa7dc689b9757d1d4326b787cd992f10a16b2fb"
+  integrity sha512-3gD9iKn/n2UuFH1uilBviK9gvTNT6iYwdqrj1Vr5mh8FuelvpRNaYVH4pNYqUgOGU4aAdL9X35eLuuj0gRsx+A==
 
 tldts-experimental@^6.0.14:
-  version "6.1.47"
-  resolved "https://registry.yarnpkg.com/tldts-experimental/-/tldts-experimental-6.1.47.tgz#30f2a1ea4f983c8f0e79c8088d09974ab5f94c98"
-  integrity sha512-XOcqmjaHA3hHQsV9TggV9bQ6Y+N4P/9Bnbmp/QQto+EcEBNTex10KnvPQBbQwLgLSarHEuTyC5PktohvIsYNBQ==
+  version "6.1.48"
+  resolved "https://registry.yarnpkg.com/tldts-experimental/-/tldts-experimental-6.1.48.tgz#885cb8e0f94ebc91d0f0bfe9ca6a6c334dce0134"
+  integrity sha512-DfEGuLszDlllzx51WTABXB6LeMF46odcTWGUqG9rdTaRhiRlp+Ldkr1jiHugWBw/etwj71kr02rAUNt4cAet/w==
   dependencies:
-    tldts-core "^6.1.47"
+    tldts-core "^6.1.48"
