@@ -98,9 +98,9 @@
   integrity sha512-lBrpf08xhiZBigrtdQfUaqX1UauwZ+skbFiL8u2Tdra/rklkKadYmIzTwkNZSWtuZ7OKpFqbE2HHfDoFqvZf6w==
 
 "@types/har-format@*":
-  version "1.2.15"
-  resolved "https://registry.yarnpkg.com/@types/har-format/-/har-format-1.2.15.tgz#f352493638c2f89d706438a19a9eb300b493b506"
-  integrity sha512-RpQH4rXLuvTXKR0zqHq3go0RVXYv/YVqv4TnPH95VbwUxZdQlK1EtcMvQvMpDngHbt13Csh9Z4qT9AbkiQH5BA==
+  version "1.2.16"
+  resolved "https://registry.yarnpkg.com/@types/har-format/-/har-format-1.2.16.tgz#b71ede8681400cc08b3685f061c31e416cf94944"
+  integrity sha512-fluxdy7ryD3MV6h8pTfTYpy/xQzCFC7m89nOH9y94cNqJ1mDIDPut7MnRHI3F6qRmh/cT2fUjG1MLdCNb4hE9A==
 
 fsevents@2.3.2:
   version "2.3.2"
@@ -121,14 +121,14 @@ playwright@^1.47.2:
   optionalDependencies:
     fsevents "2.3.2"
 
-tldts-core@^6.1.48:
-  version "6.1.48"
-  resolved "https://registry.yarnpkg.com/tldts-core/-/tldts-core-6.1.48.tgz#efa7dc689b9757d1d4326b787cd992f10a16b2fb"
-  integrity sha512-3gD9iKn/n2UuFH1uilBviK9gvTNT6iYwdqrj1Vr5mh8FuelvpRNaYVH4pNYqUgOGU4aAdL9X35eLuuj0gRsx+A==
+tldts-core@^6.1.50:
+  version "6.1.50"
+  resolved "https://registry.yarnpkg.com/tldts-core/-/tldts-core-6.1.50.tgz#8f8f87928adde862b8bc8ce6954c463e2dded790"
+  integrity sha512-na2EcZqmdA2iV9zHV7OHQDxxdciEpxrjbkp+aHmZgnZKHzoElLajP59np5/4+sare9fQBfixgvXKx8ev1d7ytw==
 
 tldts-experimental@^6.0.14:
-  version "6.1.48"
-  resolved "https://registry.yarnpkg.com/tldts-experimental/-/tldts-experimental-6.1.48.tgz#885cb8e0f94ebc91d0f0bfe9ca6a6c334dce0134"
-  integrity sha512-DfEGuLszDlllzx51WTABXB6LeMF46odcTWGUqG9rdTaRhiRlp+Ldkr1jiHugWBw/etwj71kr02rAUNt4cAet/w==
+  version "6.1.50"
+  resolved "https://registry.yarnpkg.com/tldts-experimental/-/tldts-experimental-6.1.50.tgz#121b96ef013977665601465c72ed44f71f107be5"
+  integrity sha512-11HJNqCCbZb6g3CuEOGmFxqia8Nx7sT97IOo4nC3VArbjh6pvgE2+onemkxSbeDSZIcpNFobRGOOIo1J8DSHgQ==
   dependencies:
-    tldts-core "^6.1.48"
+    tldts-core "^6.1.50"
