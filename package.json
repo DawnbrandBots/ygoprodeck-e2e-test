@@ -12,6 +12,6 @@
   },
   "dependencies": {
     "@cliqz/adblocker-playwright": "^1.33.2",
-    "playwright": "^1.47.2"
+    "playwright": "^1.48.0"
   }
 }

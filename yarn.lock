@@ -107,28 +107,28 @@ fsevents@2.3.2:
   resolved "https://registry.yarnpkg.com/fsevents/-/fsevents-2.3.2.tgz#8a526f78b8fdf4623b709e0b975c52c24c02fd1a"
   integrity sha512-xiqMQR4xAeHTuB9uWm+fFRcIOgKBMiOBP+eXiyT7jsgVCq1bkVygt00oASowB7EdtpOHaaPgKt812P9ab+DDKA==
 
-playwright-core@1.47.2:
-  version "1.47.2"
-  resolved "https://registry.yarnpkg.com/playwright-core/-/playwright-core-1.47.2.tgz#7858da9377fa32a08be46ba47d7523dbd9460a4e"
-  integrity sha512-3JvMfF+9LJfe16l7AbSmU555PaTl2tPyQsVInqm3id16pdDfvZ8TTZ/pyzmkbDrZTQefyzU7AIHlZqQnxpqHVQ==
+playwright-core@1.48.0:
+  version "1.48.0"
+  resolved "https://registry.yarnpkg.com/playwright-core/-/playwright-core-1.48.0.tgz#34d209dd4aba8fccd4a96116f1c4f7630f868722"
+  integrity sha512-RBvzjM9rdpP7UUFrQzRwR8L/xR4HyC1QXMzGYTbf1vjw25/ya9NRAVnXi/0fvFopjebvyPzsmoK58xxeEOaVvA==
 
-playwright@^1.47.2:
-  version "1.47.2"
-  resolved "https://registry.yarnpkg.com/playwright/-/playwright-1.47.2.tgz#155688aa06491ee21fb3e7555b748b525f86eb20"
-  integrity sha512-nx1cLMmQWqmA3UsnjaaokyoUpdVaaDhJhMoxX2qj3McpjnsqFHs516QAKYhqHAgOP+oCFTEOCOAaD1RgD/RQfA==
+playwright@^1.48.0:
+  version "1.48.0"
+  resolved "https://registry.yarnpkg.com/playwright/-/playwright-1.48.0.tgz#00855d9a25f1991d422867f1c32af5d90f457b48"
+  integrity sha512-qPqFaMEHuY/ug8o0uteYJSRfMGFikhUysk8ZvAtfKmUK3kc/6oNl/y3EczF8OFGYIi/Ex2HspMfzYArk6+XQSA==
   dependencies:
-    playwright-core "1.47.2"
+    playwright-core "1.48.0"
   optionalDependencies:
     fsevents "2.3.2"
 
-tldts-core@^6.1.50:
-  version "6.1.50"
-  resolved "https://registry.yarnpkg.com/tldts-core/-/tldts-core-6.1.50.tgz#8f8f87928adde862b8bc8ce6954c463e2dded790"
-  integrity sha512-na2EcZqmdA2iV9zHV7OHQDxxdciEpxrjbkp+aHmZgnZKHzoElLajP59np5/4+sare9fQBfixgvXKx8ev1d7ytw==
+tldts-core@^6.1.51:
+  version "6.1.51"
+  resolved "https://registry.yarnpkg.com/tldts-core/-/tldts-core-6.1.51.tgz#abbb005cccc1c469ed7ddf1ec472acd91efda4d0"
+  integrity sha512-bu9oCYYWC1iRjx+3UnAjqCsfrWNZV1ghNQf49b3w5xE8J/tNShHTzp5syWJfwGH+pxUgTTLUnzHnfuydW7wmbg==
 
 tldts-experimental@^6.0.14:
-  version "6.1.50"
-  resolved "https://registry.yarnpkg.com/tldts-experimental/-/tldts-experimental-6.1.50.tgz#121b96ef013977665601465c72ed44f71f107be5"
-  integrity sha512-11HJNqCCbZb6g3CuEOGmFxqia8Nx7sT97IOo4nC3VArbjh6pvgE2+onemkxSbeDSZIcpNFobRGOOIo1J8DSHgQ==
+  version "6.1.51"
+  resolved "https://registry.yarnpkg.com/tldts-experimental/-/tldts-experimental-6.1.51.tgz#18db331012ff8c6b9cf00b7ac054989fa88356b7"
+  integrity sha512-aDFHR+bRBXiIeDEPG7nV9vxgVu08Y98MUOQe2eyUpbzyapaeKQiulSedN484mKtLIsZdSbSPiboFlWUSM3TWGw==
   dependencies:
-    tldts-core "^6.1.50"
+    tldts-core "^6.1.51"
