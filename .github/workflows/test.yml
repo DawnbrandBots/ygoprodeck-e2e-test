@@ -1,4 +1,4 @@
-# SPDX-FileCopyrightText: © 2024 Kevin Lu
+# SPDX-FileCopyrightText: © 2024–2025 Kevin Lu
 # SPDX-Licence-Identifier: AGPL-3.0-or-later
 name: End-to-end tests
 on:
@@ -6,6 +6,12 @@ on:
   schedule:
     # Daily after 12:00 UTC, depending on Actions availability
     - cron: "0 12 * * *"
+  push:
+    branches:
+      - master
+  pull_request:
+    branches:
+      - master
 concurrency:
   group: ${{ github.workflow }}
   cancel-in-progress: true
@@ -26,6 +32,7 @@ jobs:
   publish:
     needs: e2e-test
     runs-on: ubuntu-latest
+    if: github.event_name != 'pull_request'
     permissions:
       pages: write
       id-token: write
